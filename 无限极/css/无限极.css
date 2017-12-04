@@ -710,8 +710,8 @@ footer table td{
 #rights{
 	width: 100%;
 	list-style: none;
-	position: relative;
-	margin: 30px auto 0;
+	position: absolute;
+	margin: 10px auto 0;
 	left: 10%;
 }
 #rights li{
