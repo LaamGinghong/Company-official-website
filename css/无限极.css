@@ -431,7 +431,7 @@ table a:hover{
 	position: relative;
 	margin: 30px auto 0;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1600px) {
 	#content{
 		height: 880px;
 	}
@@ -444,7 +444,7 @@ table a:hover{
 	height: 280px;
 	margin-right: 4%;
 }
-@media only screen and (min-width:1440px ) {
+@media only screen and (min-width:1600px ) {
 	#companynews{
 		height: 380px;
 	}
@@ -454,7 +454,7 @@ table a:hover{
 	height: 280px;
 	overflow: hidden;
 }
-@media only screen and (min-width:1440px ) {
+@media only screen and (min-width:1600px ) {
 	#product{
 		height: 380px;
 	}
@@ -465,7 +465,7 @@ table a:hover{
 	margin-top: 20px;
 	margin-right: 4%;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1600px) {
 	#topic{
 		height: 480px;
 	}
@@ -477,7 +477,7 @@ table a:hover{
 	margin-right: 4%;
 	overflow: hidden;
 }
-@media only screen and (min-width:1440px ) {
+@media only screen and (min-width:1600px ) {
 	#ceo{
 		height: 480px;
 	}
@@ -488,7 +488,7 @@ table a:hover{
 	overflow: hidden;
 	margin-top:20px;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1600px) {
 	#video{
 		height: 480px;
 	}
