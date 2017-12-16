@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>无限极官网</title>
+		<link rel="stylesheet" type="text/css" href="css/无限极.css" />
+		<script src="js/无限极1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<header>
+			<ul>
+				<li class="login_icon"><img src="img/我.png	" /></li>
+				<li class="word">
+					<a href="#">请登录</a>
+				</li>
+				<li class="line"></li>
+				<li class="message_icon"><img src="img/消息.png" /></li>
+				<li class="word">
+					<a href="#">消息</a>
+				</li>
+				<li class="line"></li>
+				<li class="box_icon"><img src="img/锁.png" /></li>
+				<li class="word">
+					<a href="#">百宝箱</a>
+				</li>
+			</ul>
+		</header>
+
+		<div id="logo">
+			<span class="left">
+				<ul>
+					<li class="logo_icon"></li>
+					<li class="asking"><a href="#">咨询</a></li>
+					<li class="product"><a href="#">产品</a></li>
+				</ul>
+			</span>
+			<span class="right">
+				<form action="#" method="post">
+					<input type="text" name="searchbox" id="searchbox" placeholder="请输入搜索内容" />
+					<a href="#"><span class="search_icon"></span></a>
+			</form>
+			</span>
+		</div>
+
+		<nav>
+			<ul class="nav">
+				<li>
+					<a href="#">首页</a>
+				</li>
+				<li id="news" onmouseover="newsappear()" onmouseleave="newsdisappear()">
+					<a href="#">公司要闻</a>
+				</li>
+				<li id="comein" onmouseover="comeinappear()" onmouseleave="comeindisappear()">
+					<a href="#">走进无极限</a>
+				</li>
+				<li id="health" onmouseover="healthappear()" onmouseleave="healthdisappear()">
+					<a href="#">健康人生</a>
+				</li>
+				<li id="responsibility" onmouseover="responsibilityappear()" onmouseleave="responsibilitydisappear()">
+					<a href="#">社会责任</a>
+				</li>
+				<li id="service" onmouseover="serviceappear()" onmouseleave="servicedisappear()">
+					<a href="#">服务大厅</a>
+				</li>
+				<li id="other" onmouseover="otherappear()" onmouseleave="otherdisappear()">
+					<a href="#">其它</a>
+				</li>
+			</ul>
+			<div id="news_box" onmouseover="newsappear()" onmouseleave="newsdisappear()">
+				<table>
+					<tr class="table_head">
+						<th>
+							<a href="#">公司动态</a>
+						</th>
+						<th>
+							<a href="#">产品快讯</a>
+						</th>
+						<th>
+							<a href="#">事业无限</a>
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">公司新闻</a>
+						</td>
+						<td>
+							<a href="#">产品资讯</a>
+						</td>
+						<td>
+							<a href="#">晋升表彰</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">品牌活动</a>
+						</td>
+						<td>
+							<a href="#">促销咨询</a>
+						</td>
+						<td>
+							<a href="#">海外培训</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">直击年会</a>
+						</td>
+						<td>
+							<a href="#">售后资讯</a>
+						</td>
+						<td>
+							<a href="#">规范专区</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">媒体报道</a>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">数码平台推广</a>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">地方风采</a>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+			<div id="comein_box" onmouseover="comeinappear()" onmouseleave="comeindisappear()">
+				<table>
+					<tr class="table_head">
+						<th>
+							<a href="#">董事长寄语</a>
+						</th>
+						<th>
+							<a href="#">公司介绍</a>
+						</th>
+						<th>
+							<a href="#">企业文化</a>
+						</th>
+						<th>
+							<a href="#">健康理念</a>
+						</th>
+						<th>
+							<a href="#">3D体验馆</a>
+						</th>
+						<th>
+							<a href="#">人才招聘</a>
+						</th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<a href="#">集团介绍</a>
+						</td>
+						<td>
+							<a href="#">思利及人</a>
+						</td>
+						<td>
+							<a href="#">解读</a>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<a href="#">八大优势</a>
+						</td>
+						<td>
+							<a href="#">自动波</a>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<a href="#">发展历程</a>
+						</td>
+						<td>
+							<a href="#">永远创业</a>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<a href="#">企业荣誉</a>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<a href="#">企业之歌</a>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+			<div id="health_box" onmouseover="healthappear()" onmouseleave="healthdisappear()">
+				<table>
+					<tr class="table_head">
+						<th>
+							<a href="#">养生固本</a>
+						</th>
+						<th>
+							<a href="#">人物故事</a>
+						</th>
+						<th>
+							<a href="#">心灵之窗</a>
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">养生之道</a>
+						</td>
+						<td></td>
+						<td>
+							<a href="#">讲故事</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">专家视野</a>
+						</td>
+						<td></td>
+						<td>
+							<a href="#">新视角</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="responsibility_box" onmouseover="responsibilityappear()" onmouseleave="responsibilitydisappear()">
+				<table>
+					<tr class="table_head">
+						<th>
+							<a href="#">社会责任观</a>
+						</th>
+						<th>
+							<a href="#">CSR报告</a>
+						</th>
+						<th>
+							<a href="#">思利及人公益基金会</a>
+						</th>
+						<th>
+							<a href="#">公益动态</a>
+						</th>
+					</tr>
+				</table>
+			</div>
+			<div id="service_box" onmouseover="serviceappear()" onmouseleave="servicedisappear()">
+				<table>
+					<tr class="table_head">
+						<th>
+							<a href="#">办卡指引</a>
+						</th>
+						<th>
+							<a href="#">联系我们</a>
+						</th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<a href="#">客服热线</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="other_box" onmouseover="otherappear()" onmouseleave="otherdisappear()">
+				<table>
+					<tr class="table_head">
+						<th>
+							<a href="#">电子刊物</a>
+						</th>
+						<th>
+							<a href="#">视频</a>
+						</th>
+						<th>
+							<a href="#">图库</a>
+						</th>
+						<th>
+							<a href="#">个性服务</a>
+						</th>
+						<th>
+							<a href="#">应用中心</a>
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">永远创业</a>
+						</td>
+						<td>
+							<a href="#"></a>
+						</td>
+						<td>
+							<a href="#"></a>
+						</td>
+						<td>
+							<a href="#">壁纸</a>
+						</td>
+						<td>
+							<a href="#"></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">养生固本</a>
+						</td>
+						<td>
+							<a href="#"></a>
+						</td>
+						<td>
+							<a href="#"></a>
+						</td>
+						<td>
+							<a href="#">信息订制</a>
+						</td>
+						<td>
+							<a href="#"></a>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</nav>
+
+		<div id="pic" onmouseover="mouseover()" onmouseout="mouseout()">
+			<div id="pic1"></div>
+			<div id="pic2"></div>
+			<div id="pic3"></div>
+			<div id="pic4"></div>
+			<div id="pic5"></div>
+			<div id="pic6"></div>
+			<div id="pic7"></div>
+		</div>
+		<div id="direction">
+			<div id="next" onclick="next_click()"></div>
+			<div id="last" onclick="last_click()"></div>
+		</div>
+		<ul id="num">
+			<a href="#" onclick="click1()">
+				<li></li>
+			</a>
+			<a href="#" onclick="click2()">
+				<li></li>
+			</a>
+			<a href="#" onclick="click3()">
+				<li></li>
+			</a>
+			<a href="#" onclick="click4()">
+				<li></li>
+			</a>
+			<a href="#" onclick="click5()">
+				<li></li>
+			</a>
+			<a href="#" onclick="click6()">
+				<li></li>
+			</a>
+			<a href="#" onclick="click7()">
+				<li></li>
+			</a>
+		</ul>
+		<script src="js/无限极2.js" type="text/javascript" charset="utf-8"></script>
+
+		<div id="content">
+			<div id="companynews">
+				<div class="contenthead">
+					<div class="red"></div>
+					<span class="contentleft">公司要闻</span>
+					<span class="contentright"><a href="#">更多</a></span>
+				</div>
+				<img src="img/66818.jpg" class="pic"/>
+				<div class="article">
+					<h3>从前，我不懂创业，直到，我遇到她......</h2><br />
+					<p>智者，当借力而行！<a href="#">[详细]</a></p><br />
+					<h3>那一夜，苏东坡的朋友喝多了，后来......</h3><br />
+					<p>在这个诱惑太多的时代，少喝点酒，才是爱自己。<a href="#">[详细]</a></p>
+				</div>
+				<div class="annotation">这次，无极限汇聚全球的合作伙伴，搞了一件...</div>
+			</div>
+			<div id="product">
+				<div class="contenthead">
+					<div class="red"></div>
+					<span class="contentleft">产品信息</span>
+					<span class="contentright"><a href="#">更多</a></span>
+				</div>
+				<img src="img/66562.png" class="pic"/>
+				<div class="annotation">
+					大家期盼的养发美肤利器，第二波订货来了！
+				</div>
+			</div>
+			<div id="topic">
+				<div class="contenthead">
+					<div class="red"></div>
+					<span class="contentleft">专题</span>
+					<span class="contentmiddle"><a href="#">媒体报道</a></span>
+					<span class="contentright"><a href="#">更多</a></span>
+				</div>
+				<img src="img/63834.jpg" class="pic"/>
+				<h3><a href="#">2017海外培训华彩之旅</a></h3>
+				<p>点击此处，感受2017海外培训华彩之旅出团伙伴的精彩瞬间</p>
+			</div>
+			<div id="ceo">
+				<div class="contenthead">
+					<div class="red"></div>
+					<span class="contentleft">董事长寄语</span>
+					<span class="contentright"><a href="#">更多</a></span>
+				</div>
+				<img src="img/64868.jpg" class="pic"/>
+				<h3><a href="#">始终聚焦顾客</a></h3>
+				<p>未来，无论世界如何变化，竞争如何激烈，顾客永远是我们最大的焦点。</p>
+			</div>
+			<div id="video">
+				<div class="contenthead">
+					<div class="red"></div>
+					<span class="contentleft">精彩视频</span>
+					<span class="contentmiddle"><a href="#">高清图片</a></span>
+					<span class="contentright"><a href="#">更多</a></span>
+				</div>
+				<img src="img/66695.png" class="pic"/>
+				<span class="icon"></span>
+				<h3><a href="#">2017推荐助力工具预告片</a></h3>
+				<p>站在风口上，送你两大推荐助力工具，敬请期待。</p>
+			</div>
+		</div>
+		
+		<footer>
+			<table>
+				<tr>
+					<th>走进无极限</th>
+					<th>热点聚焦</th>
+					<th>健康产品</th>
+					<th>服务大厅</th>
+				</tr>
+				<tr>
+					<td>董事长寄语</td>
+					<td>公司动态</td>
+					<td>产品系列</td>
+					<td>联系我们</td>
+				</tr>
+				<tr>
+					<td>3D体验馆</td>
+					<td>专题</td>
+					<td>产品信息</td>
+					<td>客服热线</td>
+				</tr>
+				<tr>
+					<td>电子刊物</td>
+					<td>有氧FM</td>
+					<td>促销推广</td>
+					<td>人才招聘</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>多媒体素材</td>
+					<td>售后服务</td>
+					<td>业务邮箱</td>
+				</tr>
+			</table>
+			<ul id="rights">
+				<li><a href="#">李锦记健康产品集团</a></li>
+				<li><a href="#">国家工商总局直销行业管理</a></li>
+				<li><a href="#">产品批次报告查询</a></li>
+				<li><a href="#">国际联网备案登记证书</a></li>
+				<li>版权所有©2017 无限极（中国） [粤ICP备05041458]</li>
+			</ul>
+		</footer>
+	</body>
+
+</html>
